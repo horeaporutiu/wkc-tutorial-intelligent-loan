@@ -1,7 +1,10 @@
 # Implement data governance to manage and secure clients’ data
 
 <center>
-![Screen Shot 2020-06-08 at 4 48 09 PM](https://user-images.githubusercontent.com/10428517/84090912-d9fb9e80-a9a7-11ea-9779-fd8912940197.png)</center>
+
+![Screen Shot 2020-06-08 at 4 48 09 PM](https://user-images.githubusercontent.com/10428517/84090912-d9fb9e80-a9a7-11ea-9779-fd8912940197.png)
+
+</center>
 
 It's no secret that data breaches are one of the worst ways
 to reach the headlines, and that even one breach can mean an [average cost of 3.9 million USD](https://www.varonis.com/blog/data-breach-statistics/). With data 
