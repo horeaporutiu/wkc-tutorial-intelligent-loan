@@ -8,7 +8,7 @@ the process of organizing, managing, and securing your data is more
 important than ever. It's no surprise that the tools to take that data, organize it, govern it, and ensure quality and searchability are what is needed at 
 this point. 
 
-![self-serviceAnalytics](https://user-images.githubusercontent.com/10428517/84090628-33af9900-a9a7-11ea-8df8-339831c5aa8e.png)
+![Screen Shot 2020-06-08 at 4 46 20 PM](https://user-images.githubusercontent.com/10428517/84090805-9acd4d80-a9a7-11ea-8ddd-0ff8a7446882.png)
 
 These tools will help power the needs of data scientists and business analysts
 through self-service analytics, while keeping sensitive data masked, and ultimately enable you 
