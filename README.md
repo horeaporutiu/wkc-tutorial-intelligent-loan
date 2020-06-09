@@ -33,7 +33,34 @@ where a secure metadata management platform like Watson Knowledge Catalog comes 
 Watson Knowledge Catalog (or WKC for short) connects data and knowledge with the people who need 
 to use it. Some of the typical use cases for a tool like Watson Knowledge Catalog is 
 ensuring regulatory compliance, data quality management, data delivery, and others, but for the
-purpose of this tutorial, we will focus on privacy and protection, again, with the goal of 
+purpose of this tutorial, we will focus on privacy and protection - with the goal of 
 minimizing the chance for a data breach.
 
 ![Screen Shot 2020-06-08 at 4 46 20 PM](https://user-images.githubusercontent.com/10428517/84091983-f0efc000-a9aa-11ea-8ed3-32c5ddb55e26.png)
+
+Some of the challenges with organizing your data.
+
+1. data preparation is usually manual. This means that 
+it is time-consuming, and not repeatable. 
+
+2. Sharing data needs to be safe and compliant. There is data inside and outside the firewall, and that 
+your employees have access to the data, but not too much access to the data. 
+
+3. Protect personal data and keep up with regulations.
+
+![Screen Shot 2020-06-08 at 5 34 20 PM](https://user-images.githubusercontent.com/10428517/84093194-5f824d00-a9ae-11ea-9caf-e5ad72c6aeee.png)
+
+This leads us directly to what you will learn from completing this tutorial:
+
+1. Automating data preparation. WKC will do this out of the box.
+
+2. Automtically classifiying data and assigning business terms. This will enable us to have a consistent 
+data vocabulatry across the company and the industry.
+
+3. Maybe the most important of all. Automatically detect sensitive data and enforce privacy rules. This way
+we can minimze risk and maximize compliance. 
+
+
+
+
+enforce (lineage for regulatory purposes)
