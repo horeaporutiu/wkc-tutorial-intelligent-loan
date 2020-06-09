@@ -130,11 +130,11 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 ![open wkc](/images/wkc-admin/wkc-open-service.png)
 
 
-![select classification type](../.gitbook/assets/images/wkc-admin/wkc-add-classifications.png)
+![select classification type](images/wkc-admin/wkc-add-classifications.png)
 
 * Click `New classification` dropdown and select `Create new classification`. These classifications can then be added to your category as a *Type*: 
 
-![select classification type](../.gitbook/assets/images/wkc-admin/wkc-add-classifications-2.png)
+![select classification type](images/wkc-admin/wkc-add-classifications-2.png)
 
 ## 4. Add data classes
 
@@ -142,27 +142,27 @@ When you profile your assets, a data class will be inferred from the contents wh
 
 * Add a data class for your assets by going to the upper-left (☰) hamburger menu, choose `Organize` -> `Data and AI Governance` -> `Data classes`, then click `New data class` -> `Create new data class`:
 
-![organize data classes](../.gitbook/assets/images/wkc-admin/wkc-menu-organize-data-classes.png)
+![organize data classes](images/wkc-admin/wkc-menu-organize-data-classes.png)
 
 * Give your new data class a name, i.e. *alphanumeric*, and an optional Primary category and/or description, and click `Save as draft`:
 
-![new data class](../.gitbook/assets/images/wkc-admin/wkc-create-data-class.png)
+![new data class](images/wkc-admin/wkc-create-data-class.png)
 
 * Once the data class is created, we can add *Stewards* for this class, and also associate *classifications* and *business terms*. When you are ready, click `Publish`:
 
-![tools for data class](../.gitbook/assets/images/wkc-admin/wkc-data-class-add-term-publish.png)
+![tools for data class](images/wkc-admin/wkc-data-class-add-term-publish.png)
 
-![publish comment data class](../.gitbook/assets/images/wkc-admin/wkc-data-publish-comment.png)
+![publish comment data class](images/wkc-admin/wkc-data-publish-comment.png)
 
 Now let's add that data class to a column in our *Telco-Customer-Churn.csv* asset.
 
 * Go back to your Telco catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `Telco catalog`). Under the *Browse assets* tab, click on the data set *Telco-Customer-Churn.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the down arrow next to "Customer Number" and then *View all*:
 
-![change data class](../.gitbook/assets/images/wkc-admin/wkc-admin-existing-data-class.png)
+![change data class](images/wkc-admin/wkc-admin-existing-data-class.png)
 
 * In the window that opens, search for your newly created data class, *alphanumeric* and click it when it returns in the search. Then click *Select*:
 
-![Set column to numerical data class](../.gitbook/assets/images/wkc-admin/wkc-admin-alphanumeric-data-class.png)
+![Set column to numerical data class](images/wkc-admin/wkc-admin-alphanumeric-data-class.png)
 
 ## 5. Add Business terms
 
@@ -172,42 +172,42 @@ You already saw how to create a category and make it a *business term*. You can 
 
 * From the upper-left (☰) hamburger menu, choose `Organize` -> `Data and AI Governance` -> `Business terms`:
 
-![organize Data Business terms](../.gitbook/assets/images/wkc-admin/wkc-organize-data-business-terms.png)
+![organize Data Business terms](images/wkc-admin/wkc-organize-data-business-terms.png)
 
 * Click on the upper-right `New business term` drop down and choose `Create new business term` button:
 
-![create business term](../.gitbook/assets/images/wkc-admin/wkc-create-business-term.png)
+![create business term](images/wkc-admin/wkc-create-business-term.png)
 
 * Give the new Business term a name such as *Billing* and optional description, and click `Save as draft`. NOTE that others on the platform will be creating a business term for this workshop, so perhaps pre-pend your term with something unique, i.e *scottda-Billing*:
 
-![name new business term](../.gitbook/assets/images/wkc-admin/wkc-name-new-business-term.png)
+![name new business term](images/wkc-admin/wkc-name-new-business-term.png)
 
 * A window will come up once the term is created. You can see a rich set of options for creating related terms and adding other metadata. For now, click `Publish` to make this term available to users of the platform:
 
-![publish business term](../.gitbook/assets/images/wkc-admin/wkc-publish-business-term.png)
+![publish business term](images/wkc-admin/wkc-publish-business-term.png)
 
 * Add an optional comment and click `Publish` in the new window:
 
-![verify publish business term](../.gitbook/assets/images/wkc-admin/wkc-click-publish.png)
+![verify publish business term](images/wkc-admin/wkc-click-publish.png)
 
 * Now go back to your Telco catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `Telco catalog`). Under the *Browse assets* tab, click on the data set *Telco-Customer-Churn.csv* to get the column/row preview. Scroll right to get to the *TotalCharges* column and click the *Column information* icon (looks like an "eye"):
 
-![choose TotalCharges column information](../.gitbook/assets/images/wkc-admin/wkc-totalcharges-column-information.png)
+![choose TotalCharges column information](images/wkc-admin/wkc-totalcharges-column-information.png)
 
 * In the window that opens, click the *edit* icon (looks like a "pencil") next to *Business terms* :
 
-![edit business terms](../.gitbook/assets/images/wkc-admin/wkc-assign-terms-to-column.png)
+![edit business terms](images/wkc-admin/wkc-assign-terms-to-column.png)
 
 * Enter *Billing* (or your uniquely named term such as *scottda-Billing*) under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
 
-![edit business terms](../.gitbook/assets/images/wkc-admin/wkc-search-billing-to-assign-term.png)
+![edit business terms](images/wkc-admin/wkc-search-billing-to-assign-term.png)
 
 Close that window once the term has been applied.
 Now, do the same thing to add the *Billing* Business term to the *MonthlyCharges* column.
 
 * You will now be able to search for these terms from within the platform. For example, going back to your top level *Telco Catalog*, in the search bar with the comment "What assets are you searching for?" enter your unique *<unique_string>Billing* term:
 
-![search using business terms](../.gitbook/assets/images/wkc-admin/wkc-search-business-terms.png)
+![search using business terms](images/wkc-admin/wkc-search-business-terms.png)
 
 The *Telco-Customer-Churn.csv* data set will show up, since it contains columns tagged with the *Billing* business term.
 
@@ -235,38 +235,38 @@ We can now create rules to control how a user can access data.
 
 * From the upper-left (☰) hamburger menu, choose `Organize` -> `Data and AI Governance` -> `Rules`, 
 
-![select rule](../.gitbook/assets/images/wkc-admin/wkc-rules-menu.png)
+![select rule](images/wkc-admin/wkc-rules-menu.png)
 
 * then click `New rule` -> `Create new rule`.
 
-![create rule](../.gitbook/assets/images/wkc-admin/wkc-create-rule.png)
+![create rule](images/wkc-admin/wkc-create-rule.png)
 
 * For the *New rule* -> *Select the type of rule to create* choose `Data protection rule`.
 
-![data protection](../.gitbook/assets/images/wkc-admin/wkc-data-protection.png)
+![data protection](images/wkc-admin/wkc-data-protection.png)
 
 * Under *Details* give your rule a *Name*, *Type* = *Access*, and a *Business definition*.
 
 * Next, under *Rule builder* *Condition1* fill out If *Business term* *Contains any* *CustomerID*  and Action then *mask data* *in columns containing* *alphanumeric*. Choose the tile for `Substitute`, which will make a non-identifiable hash. This obscures the actual CustomerID, but allows actions like database joins to still work. Click `Create`:
 
-![define rule for masking customerID](../.gitbook/assets/images/wkc-admin/wkc-rule-substitute-customer-id.png)
+![define rule for masking customerID](images/wkc-admin/wkc-rule-substitute-customer-id.png)
 
 * Now if we go back to our *Telco-Customer-Churn.csv* asset in the catalog at the *CustomerID* column, it will look the same as before. But a non-admin user will see the "lock" icon and see that the customerID has now been substituted with a hash value:
 
-![customerID is now masked](../.gitbook/assets/images/wkc-admin/wkc-masked-column-customer-id.png)
+![customerID is now masked](images/wkc-admin/wkc-masked-column-customer-id.png)
 
 * To add a rule to *Obfuscate* data, go to the `Profile` tab and scroll to the *TotalCharges* column. You can see that the data has been inferred to be classified as a *Quantity*:
 
-![TotalCharges classified as Quantity](../.gitbook/assets/images/wkc-admin/wkc-inferred-classifier-totalcharges.png)
+![TotalCharges classified as Quantity](images/wkc-admin/wkc-inferred-classifier-totalcharges.png)
 
 Here is where you could change the classification if the inferred one was not what you wanted.
 
 * You can build a rule to *Obfuscate* this *TotalCharges* column:
 
-![TotalCharges obfuscate rule ](../.gitbook/assets/images/wkc-admin/wkc-build-obfuscate-rule.png)
+![TotalCharges obfuscate rule ](images/wkc-admin/wkc-build-obfuscate-rule.png)
 
 * And now that column will have data that is replaced with similarly formatted data:
 
-![TotalCharges column obfuscated](../.gitbook/assets/images/wkc-admin/wkc-obfuscated-totalchurn-column.png)
+![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-totalchurn-column.png)
 
 This ends the Watson Knowledge Catalog for Admins lab.
