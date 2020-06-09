@@ -18,17 +18,14 @@ it's about enabling your data scientists and business analysts to do their job e
 The focus of this tutorial will be around the "organize" step of the AI Ladder. 
 
 This is 
-where a secure metadata management platform like Watson Knowledge Catalog comes in. At its core
+where a secure metadata management platform like the [award-winning Watson Knowledge Catalog](https://www.ibmbigdatahub.com/blog/ibm-expands-data-and-ai-excellence-data-cataloging-technology-cloud-pak-data#:~:text=Watson%20Knowledge%20Catalog%20named%20a,winner%20for%20metadata%20management%20tools&text=Describing%20the%20breadth%20of%20IBM's,space%20is%20no%20small%20task.) on the Cloud Pak for Data platform comes in. At its core
 Watson Knowledge Catalog (or WKC for short) connects data and knowledge with the people who need 
 to use it. Some of the typical use cases for a tool like Watson Knowledge Catalog is 
 ensuring regulatory compliance, data quality management, data delivery, and others, but for the
 purpose of this tutorial, we will focus on privacy and protection - with the goal of 
 minimizing the chance for a data breach.
 
-
-
-
-This hands-on tutorial demonstrates how to solve the problems of enterprise data governance using the [award-winning Watson Knowledge Catalog](https://www.ibmbigdatahub.com/blog/ibm-expands-data-and-ai-excellence-data-cataloging-technology-cloud-pak-data#:~:text=Watson%20Knowledge%20Catalog%20named%20a,winner%20for%20metadata%20management%20tools&text=Describing%20the%20breadth%20of%20IBM's,space%20is%20no%20small%20task.) on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
+After completing this hands-on tutorial you will learn how to solve the problems of enterprise data governance on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help you quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
 
 You will need the *Admin* role to create a catalog.
 
