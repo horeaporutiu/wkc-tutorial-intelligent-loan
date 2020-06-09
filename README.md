@@ -73,3 +73,24 @@ sensitive data as well.
 scientists, they will not be able to access sensitive customer information.
 
 5. Check the data quality.
+
+# Pre-work
+
+Follow these steps to begin your hands-on tutorial. 
+
+## Log into Cloud Pak for Data
+Launch a browser and navigate to your Cloud Pak for Data deployment.
+
+## Create a new project 
+Launch a browser and navigate to your Cloud Pak for Data deployment.
+
+<img width="1383" alt="cpd-login" src="https://user-images.githubusercontent.com/10428517/84182042-a3bd2e00-aa3e-11ea-9e22-916e67ebfe1d.png">
+
+In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
+* Go the (☰) menu and click `Projects`.
+
+<img width="696" alt="cpd-projects-menu" src="https://user-images.githubusercontent.com/10428517/84182036-a0c23d80-aa3e-11ea-8a0f-005730bf489f.png">
+
+Create an `Analytics` project for the project type and click on `Next`.
+
+<img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png">
