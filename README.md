@@ -74,7 +74,7 @@ scientists, they will not be able to access sensitive customer information.
 
 5. Check the data quality.
 
-# Pre-work
+<!-- # Pre-work
 
 Follow these steps to begin your hands-on tutorial. 
 
@@ -93,4 +93,38 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 Create an `Analytics` project for the project type and click on `Next`.
 
-<img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png">
+<img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png"> -->
+
+
+This exercise demonstrates how to solve the problems of enterprise data governance using Watson Knowledge Catalog on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, analytical models and their relationships with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
+
+You will need the *Admin* role to create a catalog.
+
+This section is comprised of the following steps:
+
+1. [Set up Catalog and Data](#1-set-up-catalog-and-data)
+1. [Add collaborators and control access](#2-add-collaborators-and-control-access)
+1. [Add categories](#3-add-categories)
+1. [Add data classes](#4-add-data-classes)
+1. [Add Business terms](#5-add-business-terms)
+1. [Add rules for policies](#6-add-rules-for-policies)
+
+## 1. Set up Catalog and Data
+
+> NOTE: The default catalog is your enterprise catalog. It is created automatically after you install the Watson Knowledge Catalog service and is the only catalog to which advanced data curation tools apply. The default catalog is governed so that data protection rules are enforced. The information assets view shows additional properties of the assets in the default catalog to aid curation. Any subsequent catalogs that you create can be governed or ungoverned, do not have an information assets view, and supply basic data curation tools.
+
+First we'll create a catalog and load some data
+
+### Create the catalog
+
+#### Provision Watson Knowledge Catalog the First Time
+
+If you haven't yet started Watson Knowledge Catalog, you'll need to provision it.
+
+* Open Watson Knowledge Catalog by clicking the *Services* icon at the top right of the home page:
+
+![click services icon](/images/wkc-admin/wkc-click-services-icon.png)
+
+* Under the *Data Governance* section, click on the *Watson Knowledge Catalog* tile:
+
+![open wkc](/images/wkc-admin/wkc-open-service.png)
