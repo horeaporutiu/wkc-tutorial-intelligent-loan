@@ -71,13 +71,13 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 
 ![Create project from file](images/openscale-config/openscale-config-create-project-from-sample.png)
 
-* Navigate to where you cloned this repository, then to `projects/` and choose `Customer-Churn-Project.zip`. Give the project a name and click `Create`:
+* Navigate to where you cloned this repository, then to `projects/` and choose `CreditRiskProject.zip`. Give the project a name and click `Create`:
 
-![Browse for project files](images/manage/cpd-importproject.png)
+<!-- ![Browse for project files](images/manage/cpd-importproject.png) -->
 
-* After succesful creation, click on *View new project*
+* After successful creation, click on *View new project*
 
-![Import project success](images/manage/cpd-importprojectsuccess.png)
+<!-- ![Import project success](images/manage/cpd-importprojectsuccess.png) -->
 
 ### Create a Deployment Space
 
@@ -99,17 +99,12 @@ Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and mana
 
 ![Create deployment space](images/manage/createDeploymentSpace.png)
 
-* Next, we will add a collaborator to the new deployment space, so that assets we deploy can be monitored in the OpenScale model monitoring lab.
+* Next, if you want to add a collaborator to the new deployment space, so that assets we deploy can be monitored, you can do so now by following the instructions for `access control` below. 
+Otherwise, skip to `Step 2`. 
 
 * Click on the `Access control` tab and then click on `Add collaborators +` on the right.
 
-![Deployment space access control](images/manage/deploymentSpaceAccessControl.png)
-
 * Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
-
-> **NOTE:** We are adding the user that configured the machine learning instance for OpenScale monitoring. In this case, the user is the admin user.
-
-![Deployment space collaborators](images/manage/deploymentSpaceAddCollaborator.png)
 
 * Click the `Add` button to finish adding the collaborator. You should be brought back to the deployment space page and see your user ID along with the `Admin` user as collaborators for this space.
 
