@@ -67,7 +67,22 @@ we can minimize risk and maximize compliance.
 Furthermore, Watson Knowledge Studio is awarded as being a "Leader" in the October 2019 edition of 
 Metadata Management solutions by Gartner. So you know that it an industry-leader for what it does. 
 
-Let's start by diving into the tutorial. There will be 6 main steps that we will accomplish as part of 
-this tutorial:
+Let's start by diving into the tutorial. We will focus on the use case of a bank. We want to ensure that 
+we are providing loans in an efficient and fair process. To do this, we will take 6 main steps to transform
+our business to organize our data to enable our data scientists and business analysts to do their best work.
 
-1. 
+1. We will start by importing business terms. This will form the foundational vocabulary that will comply 
+with industry-standards and will enable consistent and precise data-driven dialog in our company.
+
+2. We will import categories. This will help us classify data assets as sensitive or non-sensitive. We 
+need this to create rules to automatically mask and anonimize data later on.
+
+3. We will add data classes. This will help us profile our assets and help us when creating rules for 
+sensitive data as well.
+
+4. Add rules for policies. This will help us mask sensitive data, so that when we share it with data 
+scientists, they will not be able to access sensitive cusomter information.
+
+5. Check the data quality.
+
+6. TBD
