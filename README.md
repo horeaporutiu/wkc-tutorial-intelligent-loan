@@ -50,17 +50,24 @@ your employees have access to the data, but not too much access to the data.
 
 ![Screen Shot 2020-06-08 at 5 34 20 PM](https://user-images.githubusercontent.com/10428517/84093194-5f824d00-a9ae-11ea-9caf-e5ad72c6aeee.png)
 
-This leads us directly to what you will learn from completing this tutorial:
+This leads us directly to what Watson Knowledge Studio is built to do: 
 
 1. Automating data preparation. WKC will do this out of the box.
 
-2. Automtically classifiying data and assigning business terms. This will enable us to have a consistent 
-data vocabulatry across the company and the industry.
+2. Automatically classifying data and assigning business terms. This will enable us to have a consistent 
+data vocabulary across the company and the industry.
 
 3. Maybe the most important of all. Automatically detect sensitive data and enforce privacy rules. This way
-we can minimze risk and maximize compliance. 
+we can minimize risk and maximize compliance. 
 
+4. Track use of data, so we can create reports for compliance.
 
+![Screen Shot 2020-06-08 at 11 52 50 AM](https://user-images.githubusercontent.com/10428517/84094796-7460df80-a9b2-11ea-9a68-66933a972529.png)
 
+Furthermore, Watson Knowledge Studio is awarded as being a "Leader" in the October 2019 edition of 
+Metadata Management solutions by Gartner. So you know that it an industry-leader for what it does. 
 
-<!-- enforce (lineage for regulatory purposes) -->
+Let's start by diving into the tutorial. There will be 6 main steps that we will accomplish as part of 
+this tutorial:
+
+1. 
