@@ -102,6 +102,8 @@ Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and mana
 * Next, if you want to add a collaborator to the new deployment space, so that assets we deploy can be monitored, you can do so now by following the instructions for `access control` below. 
 Otherwise, skip to `Step 2`. 
 
+### Optional (Add collaborators to the space)
+
 * Click on the `Access control` tab and then click on `Add collaborators +` on the right.
 
 * Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
