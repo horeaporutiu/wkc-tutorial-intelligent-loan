@@ -43,24 +43,78 @@ This section is comprised of the following steps:
 
 ## 1. Pre work
 
-Follow these steps to begin your hands-on tutorial. 
 
-## Log into Cloud Pak for Data
-Launch a browser and navigate to your Cloud Pak for Data deployment.
+At this point of the workshop we will be using Cloud Pak for Data for the remaining steps.
 
-## Create a new project 
-Launch a browser and navigate to your Cloud Pak for Data deployment.
+### Log into Cloud Pak for Data
 
-<img width="1383" alt="cpd-login" src="https://user-images.githubusercontent.com/10428517/84182042-a3bd2e00-aa3e-11ea-9e22-916e67ebfe1d.png">
+Launch a browser and navigate to your Cloud Pak for Data deployment
+
+> **NOTE:** Your instructor will provide a URL and credentials to log into Cloud Pak for Data!
+
+![Cloud Pak for Data login](images/manage/cpd-login.png)
+
+### Create a New project
 
 In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
-* Go the (☰) menu and click `Projects`.
 
-<img width="696" alt="cpd-projects-menu" src="https://user-images.githubusercontent.com/10428517/84182036-a0c23d80-aa3e-11ea-8a0f-005730bf489f.png">
+* Go the (☰) menu and click *Projects*
 
-Create an `Analytics` project for the project type and click on `Next`.
+![(☰) Menu -> Projects](images/manage/cpd-projects-menu.png)
 
-<img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png">
+* Click on *New project +*
+
+![Start a new project](images/manage/cpd-new-project.png)
+
+* Select *Analytics project* for the project type and click on *Next*
+
+![Select project type](images/manage/cpd-project-type.png)
+
+* We are going to create a project from an existing file (which contains assets we will use throughout this workshop), as opposed to creating an empty project. Select the _*Create a project from a file*_ option:
+
+![Create project from file](images/openscale-config/openscale-config-create-project-from-sample.png)
+
+* Navigate to where you cloned this repository, then to `projects/` and choose `Customer-Churn-Project.zip`. Give the project a name and click `Create`:
+
+![Browse for project files](images/manage/cpd-importproject.png)
+
+* After succesful creation, click on *View new project*
+
+![Import project success](images/manage/cpd-importprojectsuccess.png)
+
+### Create a Deployment Space
+
+Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
+
+* Go the (☰) menu and click `Analyze` -> `Analytics deployments`:
+
+![(☰) Menu -> Analytics deployments](images/manage/ChooseAnalyticsDeployments.png)
+
+* Click on `+ New deployment space`:
+
+![Add New deployment space](images/manage/addNewDeploymentSpace.png)
+
+* Select the _*Create an empty space*_ option.
+
+![Create empty deployment space](images/manage/createEmptyDeploymentSpace.png)
+
+* Give your deployment space a unique name, optional description, then click `Create`. You will use this space later when you deploy a machine learning model.
+
+![Create deployment space](images/manage/createDeploymentSpace.png)
+
+* Next, we will add a collaborator to the new deployment space, so that assets we deploy can be monitored in the OpenScale model monitoring lab.
+
+* Click on the `Access control` tab and then click on `Add collaborators +` on the right.
+
+![Deployment space access control](images/manage/deploymentSpaceAccessControl.png)
+
+* Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
+
+> **NOTE:** We are adding the user that configured the machine learning instance for OpenScale monitoring. In this case, the user is the admin user.
+
+![Deployment space collaborators](images/manage/deploymentSpaceAddCollaborator.png)
+
+* Click the `Add` button to finish adding the collaborator. You should be brought back to the deployment space page and see your user ID along with the `Admin` user as collaborators for this space.
 
 ## 2. Set up Catalog and Data
 
