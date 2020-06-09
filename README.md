@@ -1,7 +1,5 @@
 # Implement data governance to manage and secure clients’ data
 
-![Screen Shot 2020-06-08 at 4 48 09 PM](https://user-images.githubusercontent.com/10428517/84091049-3ced3580-a9a8-11ea-8b9e-ccf55f4f9107.png)
-
 It's no secret that data breaches are one of the worst ways
 to reach the headlines, and that even one breach can mean an [average cost of 3.9 million USD](https://www.varonis.com/blog/data-breach-statistics/). With data 
 becoming more and more of a competitive advantage, and the amount of data that is produced world-wide 
@@ -10,7 +8,6 @@ the process of organizing, managing, and securing your data is more
 important than ever. It's no surprise that the tools to take that data, organize it, govern it, and ensure quality and searchability are what is needed at 
 this point. 
 
-![Screen Shot 2020-06-08 at 4 53 34 PM](https://user-images.githubusercontent.com/10428517/84091229-ad945200-a9a8-11ea-8380-b7cc45c86658.png)
 
 As companies are building up their journey to take advantage of their data 
 through AI, many businesses already have the first step of collecting data completed. They
@@ -19,9 +16,6 @@ transactions, conversations, and other information related to a customer. The se
 focused on creating the foundation of analytics. More specifically,
 it's about enabling your data scientists and business analysts to do their job efficiently. 
 The focus of this tutorial will be around the "organize" step of the AI Ladder. 
-
-
-![Screen Shot 2020-06-08 at 4 46 20 PM](https://user-images.githubusercontent.com/10428517/84090805-9acd4d80-a9a7-11ea-8ddd-0ff8a7446882.png)
 
 These tools will help power the needs of data scientists and business analysts
 through self-service analytics, while keeping sensitive data masked, and ultimately enable you 
@@ -36,8 +30,6 @@ ensuring regulatory compliance, data quality management, data delivery, and othe
 purpose of this tutorial, we will focus on privacy and protection - with the goal of 
 minimizing the chance for a data breach.
 
-![Screen Shot 2020-06-08 at 4 46 20 PM](https://user-images.githubusercontent.com/10428517/84091983-f0efc000-a9aa-11ea-8ed3-32c5ddb55e26.png)
-
 Some of the challenges with organizing your data.
 
 1. data preparation is usually manual. This means that 
@@ -48,7 +40,6 @@ your employees have access to the data, but not too much access to the data.
 
 3. Protect personal data and keep up with regulations.
 
-![Screen Shot 2020-06-08 at 5 34 20 PM](https://user-images.githubusercontent.com/10428517/84093194-5f824d00-a9ae-11ea-9caf-e5ad72c6aeee.png)
 
 This leads us directly to what Watson Knowledge Studio is built to do: 
 
@@ -62,8 +53,6 @@ we can minimize risk and maximize compliance.
 
 4. Track use of data, so we can create reports for compliance.
 
-![Screen Shot 2020-06-08 at 11 52 50 AM](https://user-images.githubusercontent.com/10428517/84094796-7460df80-a9b2-11ea-9a68-66933a972529.png)
-
 Furthermore, Watson Knowledge Studio is awarded as being a "Leader" in the October 2019 edition of 
 Metadata Management solutions by Gartner. So you know that it an industry-leader for what it does. 
 
@@ -75,14 +64,12 @@ our business to organize our data to enable our data scientists and business ana
 with industry-standards and will enable consistent and precise data-driven dialog in our company.
 
 2. We will import categories. This will help us classify data assets as sensitive or non-sensitive. We 
-need this to create rules to automatically mask and anonimize data later on.
+need this to create rules to automatically mask data later on.
 
 3. We will add data classes. This will help us profile our assets and help us when creating rules for 
 sensitive data as well.
 
 4. Add rules for policies. This will help us mask sensitive data, so that when we share it with data 
-scientists, they will not be able to access sensitive cusomter information.
+scientists, they will not be able to access sensitive customer information.
 
 5. Check the data quality.
-
-6. TBD
