@@ -25,7 +25,23 @@ ensuring regulatory compliance, data quality management, data delivery, and othe
 purpose of this tutorial, we will focus on privacy and protection - with the goal of 
 minimizing the chance for a data breach.
 
-<!-- # Pre-work
+
+
+
+This hands-on tutorial demonstrates how to solve the problems of enterprise data governance using the [award-winning Watson Knowledge Catalog](https://www.ibmbigdatahub.com/blog/ibm-expands-data-and-ai-excellence-data-cataloging-technology-cloud-pak-data#:~:text=Watson%20Knowledge%20Catalog%20named%20a,winner%20for%20metadata%20management%20tools&text=Describing%20the%20breadth%20of%20IBM's,space%20is%20no%20small%20task.) on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
+
+You will need the *Admin* role to create a catalog.
+
+This section is comprised of the following steps:
+1. [Pre Work](#0-Pre-Work)
+1. [Set up Catalog and Data](#1-set-up-catalog-and-data)
+1. [Add collaborators and control access](#2-add-collaborators-and-control-access)
+1. [Add categories](#3-add-categories)
+1. [Add data classes](#4-add-data-classes)
+1. [Add Business terms](#5-add-business-terms)
+1. [Add rules for policies](#6-add-rules-for-policies)
+
+## 1. Pre work
 
 Follow these steps to begin your hands-on tutorial. 
 
@@ -45,20 +61,6 @@ In Cloud Pak for Data, we use the concept of a project to collect / organize the
 Create an `Analytics` project for the project type and click on `Next`.
 
 <img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png"> -->
-
-
-This hands-on tutorial demonstrates how to solve the problems of enterprise data governance using the [award-winning Watson Knowledge Catalog](https://www.ibmbigdatahub.com/blog/ibm-expands-data-and-ai-excellence-data-cataloging-technology-cloud-pak-data#:~:text=Watson%20Knowledge%20Catalog%20named%20a,winner%20for%20metadata%20management%20tools&text=Describing%20the%20breadth%20of%20IBM's,space%20is%20no%20small%20task.) on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
-
-You will need the *Admin* role to create a catalog.
-
-This section is comprised of the following steps:
-
-1. [Set up Catalog and Data](#1-set-up-catalog-and-data)
-1. [Add collaborators and control access](#2-add-collaborators-and-control-access)
-1. [Add categories](#3-add-categories)
-1. [Add data classes](#4-add-data-classes)
-1. [Add Business terms](#5-add-business-terms)
-1. [Add rules for policies](#6-add-rules-for-policies)
 
 ## 1. Set up Catalog and Data
 
