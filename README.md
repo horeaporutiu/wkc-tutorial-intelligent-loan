@@ -40,6 +40,8 @@ This section is comprised of the following steps:
 
 ## 1. Pre work
 
+First clone this repository. This will give you access to the data that we need. The 
+data we use can be found [here](https://github.ibm.com/ibm-developer-eti-ai-analytics/Intelligent-Bank-Modernizing-your-Bank-Loan-Department/blob/phase2-studio-ml-notebook/data/german_credit_data.csv). 
 
 At this point of the workshop we will be using Cloud Pak for Data for the remaining steps.
 
@@ -146,35 +148,43 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 
 * Give your catalog a name and optional description, check  `Enforce data protection rules` and click `create`:
 
+#### Need to change picture below ####
+
 ![name and create wkc catalog](images/wkc-admin/wkc-name-describe-create.png)
 
 * Click `OK` on the pop-up that shows up when you checked the checkbox in the previous screen
+#### Need to change picture below ####
 
 ![enforce data protection](images/wkc-admin/wkc-enforce-data-protection.png)
 
 ### Option 1 - Add data assets 
 
 * Under the *Browse Assets* tab, below "Now you can add assets!" click `here` to add your data:
+#### Need to change picture below ####
 
 ![click here to add assets](images/wkc-admin/wkc-add-data-asset.png)
 
 *OR* you can click `Add to catalog +` in the top right and, for example, choose `Local files`:
+#### Need to change picture below ####
 
 ![add local files to catalog](images/wkc-admin/wkc-add-to-catalog-local-files.png)
 
-* Browse to the `/data/merged/Telco-Customer-Churn.csv` file and double-click or click `Open`. Add an optional description and click `Add`:
+* Browse to where you cloned the repository and go to `/data/split/applicant_personal_data.csv`. Click on `Open`. Add an optional description and click `Add`:
+#### Need to change picture below ####
 
 ![click add for local files to catalog](images/wkc-admin/wkc-file-selected-now-add.png)
 
 >NOTE: Stay in the catalog until loading is complete! If you leave the catalog, the incomplete asset will be deleted.
 
-* The newly added *Telco-Customer-Churn.csv* file will show up under the *Browse Assets* tab of your catalog:
+* The newly added *applicant_personal_data.csv* file will show up under the *Browse Assets* tab of your catalog:
+#### Need to change picture below ####
 
 ![newly added data in catalog](images/wkc-admin/wkc-browse-assets.png)
 
 ### Option 2 - Add Connection
 
 * You can add a connection to a remote DB, for example *DB2 Warehouse in IBM Cloud*, by choosing `Add to catalog +` -> `Connection`:
+#### Need to change picture below ####
 
 ![add connection to catalog](images/wkc-admin/wkc-add-connection.png)
 
@@ -187,6 +197,7 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 ![enter db2 warehouse connection details](images/wkc-admin/wkc-enter-connection-details.png)
 
 * The connection now shows up in the catalog:
+#### Need to change picture below ####
 
 ![db2 warehouse connection shows up](images/wkc-admin/wkc-new-connection-shows-up.png)
 
@@ -195,10 +206,12 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 Virtualized data can be added to the *Default* catalog by someone with Administrator or Editor access to that catalog.
 
 * Go to the upper-left (☰) hamburger menu and choose `Organize` -> `All catalogs`. Click `Add to Catalog +` -> `Connected asset`:
+#### Need to change picture below ####
 
 ![add connected asset](images/wkc-admin/wkc-add-connected-asset.png)
 
 * Click *Source* -> `Select source`. Browse under `DV` to you Schema (i.e. UserXYZW) and choose the joined table. Click `Select`.
+#### Need to change picture below ####
 
 ![seelect source](images/wkc-admin/wkc-select-source.png)
 
@@ -207,22 +220,27 @@ A user can now add this to a project like any other asset from a catalog.
 ## 3. Add collaborators and control access
 
 * Under the *Access Control* tab you can click `Add Collaborator` to give other users access to your catalog:
+#### Would be nice to change picture below ####
 
 ![give users access to the catalog](images/wkc-admin/wkc-access-control-add-collaborator.png)
 
 * You can search for a user, click on the name to select them, choose a role for the user - Admin, Editor, or Viewer and click `Add`:
+#### Would be nice to change picture below ####
 
 ![search for user and add as collaborator](images/wkc-admin/wkc-choose-user-and-add.png)
 
 * To access data in the catalog, click on the name of the data:
+#### Need to change picture below ####
 
 ![click data name to open](images/wkc-admin/wkc-click-data-name-to-open.png)
 
 * A preview of the data will open, with metadata and the first few rows:
+#### Need to change picture below ####
 
 ![preview of data](images/wkc-admin/wkc-data-preview.png)
 
 * You can click the `Review` tab and rate the data, as well as comment on it, to provide feedback for your teammates:
+#### Need to change picture below ####
 
 ![review data](images/wkc-admin/wkc-review-data.png)
 
