@@ -29,7 +29,7 @@ to use it. Some of the typical use cases for a tool like Watson Knowledge Catalo
 ensuring regulatory compliance, data quality management, data delivery, and others, but for the
 purpose of this tutorial, we will focus on privacy and protection - with the goal of 
 minimizing the chance for a data breach.
-
+<!-- 
 Some of the challenges with organizing your data.
 
 1. data preparation is usually manual. This means that 
@@ -72,7 +72,7 @@ sensitive data as well.
 4. Add rules for policies. This will help us mask sensitive data, so that when we share it with data 
 scientists, they will not be able to access sensitive customer information.
 
-5. Check the data quality.
+5. Check the data quality. -->
 
 <!-- # Pre-work
 
@@ -96,7 +96,7 @@ Create an `Analytics` project for the project type and click on `Next`.
 <img width="1388" alt="cpd-new-project" src="https://user-images.githubusercontent.com/10428517/84182041-a3249780-aa3e-11ea-936b-cb49af7554d9.png"> -->
 
 
-This exercise demonstrates how to solve the problems of enterprise data governance using Watson Knowledge Catalog on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, analytical models and their relationships with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
+This hands-on tutorial demonstrates how to solve the problems of enterprise data governance using Watson Knowledge Catalog on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help users quickly discover, curate, categorize and share data assets, data sets, analytical models and their relationships with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
 
 You will need the *Admin* role to create a catalog.
 
