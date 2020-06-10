@@ -268,7 +268,7 @@ You can import them in .csv format(option 1) , or you can add categories manuall
 
 ![Import select merge option](images/wkc-admin/wkc-import-select-merge-option.png)
 
-* You will see "The import completed succesfully" when it is completed.
+* You will see "The import completed successfully" when it is completed.
 
 ![Import complete](images/wkc-admin/wkc-import-complete.png)
 
@@ -280,15 +280,19 @@ In this way, you can import Categories, Business Terms, Classifications, Policie
 
 ![organize data categories](images/wkc-admin/wkc-menu-organize-categories.png)
 
-* Give your category a name, such as *Billing*, and an optional description, and then click `Save`:
+* Give your category a name, such as *Personal Data*, and an optional description, and then click `Save`:
+
+### Need to change pic below
 
 ![new category billing](images/wkc-admin/wkc-new-category-billing.png)
 
 * Now, if you hit `Create category` again on the *Billing* category screen, you can create a sub-category, such as *Total Charges*:
+### Need to change pic below
 
 ![sub category total charges](images/wkc-admin/wkc-new-sub-category-totalcharges.png)
 
 * For the *Billing* category you can select a *Type*, such as `Business term`:
+### Need to change pic below
 
 ![select business term type](images/wkc-admin/wkc-category-select-type.png)
 
@@ -318,13 +322,15 @@ When you profile your assets, a data class will be inferred from the contents wh
 
 ![publish comment data class](images/wkc-admin/wkc-data-publish-comment.png)
 
-Now let's add that data class to a column in our *Telco-Customer-Churn.csv* asset.
+Now let's add that data class to a column in our *applicant_personal_data.csv* asset.
 
-* Go back to your Telco catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `Telco catalog`). Under the *Browse assets* tab, click on the data set *Telco-Customer-Churn.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the down arrow next to "Customer Number" and then *View all*:
+* Go back to your CreditDataCatalog catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the down arrow next to "Customer Number" and then *View all*:
+### Need to change pic below
 
 ![change data class](images/wkc-admin/wkc-admin-existing-data-class.png)
 
 * In the window that opens, search for your newly created data class, *alphanumeric* and click it when it returns in the search. Then click *Select*:
+### Need to change pic below
 
 ![Set column to numerical data class](images/wkc-admin/wkc-admin-alphanumeric-data-class.png)
 
@@ -342,7 +348,7 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![create business term](images/wkc-admin/wkc-create-business-term.png)
 
-* Give the new Business term a name such as *Billing* and optional description, and click `Save as draft`. NOTE that others on the platform will be creating a business term for this workshop, so perhaps pre-pend your term with something unique, i.e *scottda-Billing*:
+* Give the new Business term a name such as *Billing* and optional description, and click `Save as draft`. NOTE that if others on the platform will be creating a business term as well, pre-pend your term with something unique, i.e *Samaya-Billing*:
 
 ![name new business term](images/wkc-admin/wkc-name-new-business-term.png)
 
@@ -354,7 +360,8 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![verify publish business term](images/wkc-admin/wkc-click-publish.png)
 
-* Now go back to your Telco catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `Telco catalog`). Under the *Browse assets* tab, click on the data set *Telco-Customer-Churn.csv* to get the column/row preview. Scroll right to get to the *TotalCharges* column and click the *Column information* icon (looks like an "eye"):
+* Now go back to your `CreditDataCatalog` catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *TotalCharges* column and click the *Column information* icon (looks like an "eye"):
+### Need to change pic below
 
 ![choose TotalCharges column information](images/wkc-admin/wkc-totalcharges-column-information.png)
 
@@ -362,18 +369,20 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![edit business terms](images/wkc-admin/wkc-assign-terms-to-column.png)
 
-* Enter *Billing* (or your uniquely named term such as *scottda-Billing*) under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
+* Enter *Billing* (or your uniquely named term such as *Samaya-Billing*) under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
 
 ![edit business terms](images/wkc-admin/wkc-search-billing-to-assign-term.png)
 
 Close that window once the term has been applied.
 Now, do the same thing to add the *Billing* Business term to the *MonthlyCharges* column.
 
-* You will now be able to search for these terms from within the platform. For example, going back to your top level *Telco Catalog*, in the search bar with the comment "What assets are you searching for?" enter your unique *<unique_string>Billing* term:
+* You will now be able to search for these terms from within the platform. For example, going back to your top level *CreditDataCatalog*, in the search bar with the comment "What assets are you searching for?" enter your unique *Samaya-Billing* term:
+
+### Need to change pic below
 
 ![search using business terms](images/wkc-admin/wkc-search-business-terms.png)
 
-The *Telco-Customer-Churn.csv* data set will show up, since it contains columns tagged with the *Billing* business term.
+The *applicant_personal_data.csv* data set will show up, since it contains columns tagged with the *Billing* business term.
 
 ## 7. Add rules for policies
 
@@ -389,7 +398,7 @@ We can now create rules to control how a user can access data.
 
 * Give the new Business term the name *CustomerID* and optional description, and click `Save as draft`. In the next window, click `Publish`.
 
-* Now go back to your Telco catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `Telco catalog`). Under the *Browse assets* tab, click on the data set *Telco-Customer-Churn.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the *Column information* icon (looks like an "eye"):
+* Now go back to your CreditDataCatalog catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the *Column information* icon (looks like an "eye"):
 
 * In the window that opens, click the *edit* icon (looks like a "pencil") next to *Business terms* :
 
@@ -415,21 +424,28 @@ We can now create rules to control how a user can access data.
 
 ![define rule for masking customerID](images/wkc-admin/wkc-rule-substitute-customer-id.png)
 
-* Now if we go back to our *Telco-Customer-Churn.csv* asset in the catalog at the *CustomerID* column, it will look the same as before. But a non-admin user will see the "lock" icon and see that the customerID has now been substituted with a hash value:
+* Now if we go back to our *applicant_personal_data.csv* asset in the catalog at the *CustomerID* column, it will look the same as before. But a non-admin user will see the "lock" icon and see that the customerID has now been substituted with a hash value:
+### Need to change pic below
 
 ![customerID is now masked](images/wkc-admin/wkc-masked-column-customer-id.png)
 
-* To add a rule to *Obfuscate* data, go to the `Profile` tab and scroll to the *TotalCharges* column. You can see that the data has been inferred to be classified as a *Quantity*:
+<!-- * To add a rule to *Obfuscate* data, go to the `Profile` tab and scroll to the *TotalCharges* column. You can see that the data has been inferred to be classified as a *Quantity*: -->
+
+* Back in the CreditDataCatalog, under the applicant_personal_data.csv asset, go to the Overview tab and scroll to the Age column. Click the "down arrow" and you can see that the data has been inferred to be classified as a Code
+### Need to change pic below
 
 ![TotalCharges classified as Quantity](images/wkc-admin/wkc-inferred-classifier-totalcharges.png)
 
 Here is where you could change the classification if the inferred one was not what you wanted.
 
-* You can build a rule to *Obfuscate* this *TotalCharges* column:
+
+* You can build a rule to Obfuscate the `Age` column:
+### Need to change pic below
 
 ![TotalCharges obfuscate rule ](images/wkc-admin/wkc-build-obfuscate-rule.png)
 
 * And now that column will have data that is replaced with similarly formatted data:
+### Need to change pic below
 
 ![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-totalchurn-column.png)
 
