@@ -31,89 +31,15 @@ After completing this hands-on tutorial you will learn how to solve the problems
 You will need the *Admin* role to create a catalog.
 
 This section is comprised of the following steps:
-1. [Pre Work](#1-Pre-Work)
-1. [Set up Catalog and Data](#2-set-up-catalog-and-data)
-1. [Add collaborators and control access](#3-add-collaborators-and-control-access)
-1. [Add categories](#4-add-categories)
-1. [Add data classes](#5-add-data-classes)
-1. [Add Business terms](#6-add-business-terms)
-1. [Add rules for policies](#7-add-rules-for-policies)
+<!-- 1. [Pre Work](#1-Pre-Work) -->
+1. [Set up Catalog and Data](#1-set-up-catalog-and-data)
+1. [Add collaborators and control access](#2-add-collaborators-and-control-access)
+1. [Add categories](#3-add-categories)
+1. [Add data classes](#4-add-data-classes)
+1. [Add Business terms](#5-add-business-terms)
+1. [Add rules for policies](#6-add-rules-for-policies)
 
-## 1. Pre work
-
-First clone this repository. This will give you access to the data that we need. The 
-data we use can be found [here](https://github.ibm.com/ibm-developer-eti-ai-analytics/Intelligent-Bank-Modernizing-your-Bank-Loan-Department/blob/phase2-studio-ml-notebook/data/german_credit_data.csv). 
-
-At this point of the workshop we will be using Cloud Pak for Data for the remaining steps.
-
-### Log into Cloud Pak for Data
-
-Launch a browser and navigate to your Cloud Pak for Data deployment
-
-> **NOTE:** Your instructor will provide a URL and credentials to log into Cloud Pak for Data!
-
-![Cloud Pak for Data login](images/manage/cpd-login.png)
-
-### Create a New project
-
-In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
-
-* Go the (☰) menu and click *Projects*
-
-![(☰) Menu -> Projects](images/manage/cpd-projects-menu.png)
-
-* Click on *New project +*
-
-![Start a new project](images/manage/cpd-new-project.png)
-
-* Select *Analytics project* for the project type and click on *Next*
-
-![Select project type](images/manage/cpd-project-type.png)
-
-* We are going to create a project from an existing file (which contains assets we will use throughout this workshop), as opposed to creating an empty project. Select the _*Create a project from a file*_ option:
-
-![Create project from file](images/openscale-config/openscale-config-create-project-from-sample.png)
-
-* Navigate to where you cloned this repository, then to `projects/` and choose `CreditRiskProject.zip`. Give the project a name and click `Create`:
-
-<!-- ![Browse for project files](images/manage/cpd-importproject.png) -->
-
-* After successful creation, click on *View new project*
-
-<!-- ![Import project success](images/manage/cpd-importprojectsuccess.png) -->
-
-### Create a Deployment Space
-
-Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
-
-* Go the (☰) menu and click `Analyze` -> `Analytics deployments`:
-
-![(☰) Menu -> Analytics deployments](images/manage/ChooseAnalyticsDeployments.png)
-
-* Click on `+ New deployment space`:
-
-![Add New deployment space](images/manage/addNewDeploymentSpace.png)
-
-* Select the _*Create an empty space*_ option.
-
-![Create empty deployment space](images/manage/createEmptyDeploymentSpace.png)
-
-* Give your deployment space a unique name, optional description, then click `Create`. You will use this space later when you deploy a machine learning model.
-
-![Create deployment space](images/manage/createDeploymentSpace.png)
-
-* Next, if you want to add a collaborator to the new deployment space, so that assets we deploy can be monitored, you can do so now by following the instructions for `access control` below. 
-Otherwise, skip to `Step 2`. 
-
-### Optional (Add collaborators to the space)
-
-* Click on the `Access control` tab and then click on `Add collaborators +` on the right.
-
-* Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
-
-* Click the `Add` button to finish adding the collaborator. You should be brought back to the deployment space page and see your user ID along with the `Admin` user as collaborators for this space.
-
-## 2. Set up Catalog and Data
+## 1. Set up Catalog and Data
 
 > NOTE: The default catalog is your enterprise catalog. It is created automatically after you install the Watson Knowledge Catalog service and is the only catalog to which advanced data curation tools apply. The default catalog is governed so that data protection rules are enforced. The information assets view shows additional properties of the assets in the default catalog to aid curation. Any subsequent catalogs that you create can be governed or ungoverned, do not have an information assets view, and supply basic data curation tools.
 
@@ -218,7 +144,7 @@ Virtualized data can be added to the *Default* catalog by someone with Administr
 
 A user can now add this to a project like any other asset from a catalog.
 
-## 3. Add collaborators and control access
+## 2. Add collaborators and control access
 
 * Under the *Access Control* tab you can click `Add Collaborator` to give other users access to your catalog:
 #### Would be nice to change picture below ####
@@ -245,7 +171,7 @@ A user can now add this to a project like any other asset from a catalog.
 
 ![review data](images/wkc-admin/wkc-review-data.png)
 
-## 4. Add categories
+## 3. Add categories
 
 The fundamental abstraction in Watson Knowledge Catalog is the Category. A category is analogous to a folder.
 
@@ -305,7 +231,7 @@ In this way, you can import Categories, Business Terms, Classifications, Policie
 
 ![select classification type](images/wkc-admin/wkc-add-classifications-2.png)
 
-## 5. Add data classes
+## 4. Add data classes
 
 When you profile your assets, a data class will be inferred from the contents where possible. We'll see more on this later. You can also add your own data classes.
 
@@ -335,7 +261,7 @@ Now let's add that data class to a column in our *applicant_personal_data.csv* a
 
 ![Set column to numerical data class](images/wkc-admin/wkc-admin-alphanumeric-data-class.png)
 
-## 6. Add Business terms
+## 5. Add Business terms
 
 You can use [Business terms](https://dataplatform.cloud.ibm.com/docs/content/wsj/governance/dmg16.html) to standardize definitions of business concepts so that your data is described in a uniform and easily understood way across your enterprise.
 
@@ -385,7 +311,7 @@ Now, do the same thing to add the *Billing* Business term to the *MonthlyCharges
 
 The *applicant_personal_data.csv* data set will show up, since it contains columns tagged with the *Billing* business term.
 
-## 7. Add rules for policies
+## 6. Add rules for policies
 
 We can now create rules to control how a user can access data.
 
@@ -451,3 +377,79 @@ Here is where you could change the classification if the inferred one was not wh
 ![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-totalchurn-column.png)
 
 This ends the Watson Knowledge Catalog for Admins lab.
+
+
+
+<!-- ## 1. Pre work
+
+First clone this repository. This will give you access to the data that we need. The 
+data we use can be found [here](https://github.ibm.com/ibm-developer-eti-ai-analytics/Intelligent-Bank-Modernizing-your-Bank-Loan-Department/blob/phase2-studio-ml-notebook/data/german_credit_data.csv). 
+
+At this point of the workshop we will be using Cloud Pak for Data for the remaining steps.
+
+### Log into Cloud Pak for Data
+
+Launch a browser and navigate to your Cloud Pak for Data deployment
+
+> **NOTE:** Your instructor will provide a URL and credentials to log into Cloud Pak for Data!
+
+![Cloud Pak for Data login](images/manage/cpd-login.png)
+
+### Create a New project
+
+In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
+
+* Go the (☰) menu and click *Projects*
+
+![(☰) Menu -> Projects](images/manage/cpd-projects-menu.png)
+
+* Click on *New project +*
+
+![Start a new project](images/manage/cpd-new-project.png)
+
+* Select *Analytics project* for the project type and click on *Next*
+
+![Select project type](images/manage/cpd-project-type.png)
+
+* We are going to create a project from an existing file (which contains assets we will use throughout this workshop), as opposed to creating an empty project. Select the _*Create a project from a file*_ option:
+
+![Create project from file](images/openscale-config/openscale-config-create-project-from-sample.png)
+
+* Navigate to where you cloned this repository, then to `projects/` and choose `CreditRiskProject.zip`. Give the project a name and click `Create`:
+
+<!-- ![Browse for project files](images/manage/cpd-importproject.png) -->
+
+<!-- * After successful creation, click on *View new project* -->
+
+<!-- ![Import project success](images/manage/cpd-importprojectsuccess.png) -->
+<!-- 
+### Create a Deployment Space
+
+Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
+
+* Go the (☰) menu and click `Analyze` -> `Analytics deployments`:
+
+![(☰) Menu -> Analytics deployments](images/manage/ChooseAnalyticsDeployments.png)
+
+* Click on `+ New deployment space`:
+
+![Add New deployment space](images/manage/addNewDeploymentSpace.png)
+
+* Select the _*Create an empty space*_ option.
+
+![Create empty deployment space](images/manage/createEmptyDeploymentSpace.png)
+
+* Give your deployment space a unique name, optional description, then click `Create`. You will use this space later when you deploy a machine learning model.
+
+![Create deployment space](images/manage/createDeploymentSpace.png)
+
+* Next, if you want to add a collaborator to the new deployment space, so that assets we deploy can be monitored, you can do so now by following the instructions for `access control` below. 
+Otherwise, skip to `Step 2`. 
+
+### Optional (Add collaborators to the space)
+
+* Click on the `Access control` tab and then click on `Add collaborators +` on the right.
+
+* Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
+
+* Click the `Add` button to finish adding the collaborator. You should be brought back to the deployment space page and see your user ID along with the `Admin` user as collaborators for this space. --> 
