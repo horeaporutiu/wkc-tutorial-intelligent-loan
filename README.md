@@ -27,7 +27,7 @@ minimizing the chance for a data breach.
 
 After completing this hands-on tutorial you will learn how to solve the problems of enterprise data governance on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help you quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
 
-![Cloud Pak for Data login](images/seqdiagram.png)
+![Cloud Pak for Data login](images/seq-diagram.png)
 
 You will need the *Admin* role to create a catalog.
 
