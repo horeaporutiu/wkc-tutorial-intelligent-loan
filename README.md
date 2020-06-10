@@ -4,7 +4,7 @@ It's no secret that data breaches are one of the worst ways
 to reach the headlines, and even one breach can mean an [average cost of 3.9 million USD](https://www.varonis.com/blog/data-breach-statistics/). With data 
 becoming more and more of a competitive advantage, and the amount of data that is produced world-wide 
 projected to double [from 2020 to 2023](https://www.statista.com/statistics/871513/worldwide-data-created/), 
-the process of organizing, managing, and securing your data is more 
+the process of organizing, managing, and securing data is more 
 important than ever. It's no surprise that the tools to take that data, organize it, govern it, and ensure quality and searchability are what is needed at 
 this point. 
 
@@ -26,6 +26,8 @@ purpose of this tutorial, we will focus on privacy and protection - with the goa
 minimizing the chance for a data breach.
 
 After completing this hands-on tutorial you will learn how to solve the problems of enterprise data governance on the Cloud Pak for Data platform. We'll explain how to use governance, data quality and active policy management in order to help your organization protect and govern sensitive data, trace data lineage and manage data lakes. This knowledge will help you quickly discover, curate, categorize and share data assets, data sets, and analytical models with other members of your organization. It serves as a single source of truth for data engineers, data stewards, data scientists and business analysts to gain self-service access to data they can trust.
+
+![Cloud Pak for Data login](images/seqdiagram.png)
 
 You will need the *Admin* role to create a catalog.
 
