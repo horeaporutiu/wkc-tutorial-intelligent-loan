@@ -187,7 +187,7 @@ You can import them in .csv format(option 1) , or you can add categories manuall
 
 ![Import categories](images/wkc-admin/wkc-import-categories.png)
 
-* Click `Add file` and navigate to where you cloned the workshop repository, choosing `data/wkc/glossary-organize-categories.csv`.
+* Click `Add file` and navigate to where you cloned this repository, choosing `data/wkc/glossary-organize-categories.csv`.
 
 ![Import csv](images/wkc-admin/wkc-import-csv.png)
 
