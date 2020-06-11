@@ -76,7 +76,7 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 
 ![name and create wkc catalog](images/wkc-admin/wkc-name-describe-create.png)
 
-* Click `OK` on the pop-up that shows up when you checked the checkbox in the previous screen
+* Click `OK` on the pop-up that shows up when you checked the checkbox in the previous screen, then click `Create`.
 
 ![enforce data protection](images/wkc-admin/wkc-enforce-data-protection.png)
 
