@@ -274,20 +274,19 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![edit business terms](images/wkc-admin/wkc-assign-terms-to-column.png)
 
-* Enter *Contact Information* under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
+* Enter *Contact Information* under *Business terms* and the term will be searched for. Click on the `Contact Information` term that is found, and click `Apply`:
 
 ![edit business terms](images/wkc-admin/wkc-search-billing-to-assign-term.png)
 
 Close that window once the term has been applied.
-Now, do the same thing to add the *Billing* Business term to the *MonthlyCharges* column.
+Now, do the same thing to add the *Contact Information* Business term to the *Telephone* column.
 
-* You will now be able to search for these terms from within the platform. For example, going back to your top level *CreditDataCatalog*, in the search bar with the comment "What assets are you searching for?" enter your unique *Samaya-Billing* term:
+* You will now be able to search for these terms from within the platform. For example, going back to your top level *CreditDataCatalog*, in the search bar with the comment "What assets are you searching for?" enter your unique *Contact Information* term:
 
-### Need to change pic below
 
 ![search using business terms](images/wkc-admin/wkc-search-business-terms.png)
 
-The *applicant_personal_data.csv* data set will show up, since it contains columns tagged with the *Billing* business term.
+The *applicant_personal_data.csv* data set will show up, since it contains columns tagged with the *Contact Information* business term.
 
 ## 6. Add rules for policies
 
