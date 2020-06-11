@@ -123,12 +123,10 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 Virtualized data can be added to the *Default* catalog by someone with Administrator or Editor access to that catalog.
 
 * Go to the upper-left (☰) hamburger menu and choose `Organize` -> `All catalogs`. Click `Add to Catalog +` -> `Connected asset`:
-#### Need to change picture below ####
 
 ![add connected asset](images/wkc-admin/wkc-add-connected-asset.png)
 
 * Click *Source* -> `Select source`. Browse under `DV` to you Schema (i.e. UserXYZW) and choose the joined table. Click `Select`.
-#### Need to change picture below ####
 
 ![seelect source](images/wkc-admin/wkc-select-source.png)
 
