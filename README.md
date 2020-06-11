@@ -192,11 +192,11 @@ In this way, you can import Categories, Business Terms, Classifications, Policie
 
 * Give your category a name, such as *Personal Data*, and an optional description, and then click `Save`:
 
-![new category billing](images/wkc-admin/wkc-new-category-billing.png)
+![new category billing](images/wkc-admin/wkc-new-category-personal-data.png)
 
-* Now, if you hit `Create category` again on the *Billing* category screen, you can create a sub-category, such as *Total Charges*:
+* Now, if you hit `Create category` again on the *Personal Data* category screen, you can create a sub-category, such as *Residence Information*:
 
-![sub category total charges](images/wkc-admin/wkc-new-sub-category-totalcharges.png)
+![sub category total charges](images/wkc-admin/wkc-new-sub-category-residence-information.png)
 
 * For the *Billing* category you can select a *Type*, such as `Business term`:
 
