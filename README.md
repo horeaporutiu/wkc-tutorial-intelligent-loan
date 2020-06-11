@@ -266,15 +266,15 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![verify publish business term](images/wkc-admin/wkc-click-publish.png)
 
-* Now go back to your `CreditDataCatalog` catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *TotalCharges* column and click the *Column information* icon (looks like an "eye"):
+* Now go back to your `CreditDataCatalog` catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *email* column and click the *Column information* icon (looks like an "eye"):
 
-![choose TotalCharges column information](images/wkc-admin/wkc-totalcharges-column-information.png)
+![choose TotalCharges column information](images/wkc-admin/wkc-email-column-information.png)
 
 * In the window that opens, click the *edit* icon (looks like a "pencil") next to *Business terms* :
 
 ![edit business terms](images/wkc-admin/wkc-assign-terms-to-column.png)
 
-* Enter *Billing* (or your uniquely named term such as *Samaya-Billing*) under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
+* Enter *Contact Information* under *Business terms* and the term will be searched for. Click on the `Billing` term that is found, and click `Apply`:
 
 ![edit business terms](images/wkc-admin/wkc-search-billing-to-assign-term.png)
 
