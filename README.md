@@ -333,17 +333,13 @@ We can now create rules to control how a user can access data.
 
 ![customerID is now masked](images/wkc-admin/wkc-masked-column-customer-id.png)
 
-<!-- * To add a rule to *Obfuscate* data, go to the `Profile` tab and scroll to the *TotalCharges* column. You can see that the data has been inferred to be classified as a *Quantity*: -->
-
 * Back in the CreditDataCatalog, under the applicant_personal_data.csv asset, go to the Overview tab and scroll to the Age column. Click the "down arrow" and you can see that the data has been inferred to be classified as a Code
 
 ![TotalCharges classified as Quantity](images/wkc-admin/wkc-inferred-classifier-age.png)
 
-Here is where you could change the classification if the inferred one was not what you wanted.
+Change the classifier by clicking `View all`.
 
-Change the classifier by clicking View all.
-
-Now change the classifier by starting to type Age. When this comes up in the search, click Use and then Close:
+Now change the classifier by starting to type `Age`. When this comes up in the search, click `Use` and then `Close`:
 
 ![TotalCharges classified as Quantity](images/wkc-admin/wkc-classifier-age.png)
 
