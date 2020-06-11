@@ -31,7 +31,6 @@ After completing this hands-on tutorial you will learn how to solve the problems
 You will need the *Admin* role to create a catalog.
 
 This section is comprised of the following steps:
-<!-- 1. [Pre Work](#1-Pre-Work) -->
 1. [Set up Catalog and Data](#1-set-up-catalog-and-data)
 1. [Add collaborators and control access](#2-add-collaborators-and-control-access)
 1. [Add categories](#3-add-categories)
@@ -75,12 +74,9 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 
 * Give your catalog a name and optional description, check  `Enforce data protection rules` and click `create`:
 
-#### Need to change picture below ####
-
 ![name and create wkc catalog](images/wkc-admin/wkc-name-describe-create.png)
 
 * Click `OK` on the pop-up that shows up when you checked the checkbox in the previous screen
-#### Need to change picture below ####
 
 ![enforce data protection](images/wkc-admin/wkc-enforce-data-protection.png)
 
