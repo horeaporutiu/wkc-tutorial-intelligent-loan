@@ -224,7 +224,7 @@ When you profile your assets, a data class will be inferred from the contents wh
 
 ![new data class](images/wkc-admin/wkc-create-data-class.png)
 
-* Once the data class is created, we can add *Stewards* for this class, and also associate *classifications* and *business terms*. When you are ready, click `Publish`:
+* Once the data class is created, we can add *Stewards* for this class, and also associate *classifications* and *business terms* if they are available (you may not have any business terms yet). When you are ready, click `Publish`:
 
 ![tools for data class](images/wkc-admin/wkc-data-class-add-term-publish.png)
 
