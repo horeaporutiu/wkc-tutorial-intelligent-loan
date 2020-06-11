@@ -83,24 +83,20 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 ### Option 1 - Add data assets 
 
 * Under the *Browse Assets* tab, below "Now you can add assets!" click `here` to add your data:
-#### Need to change picture below ####
 
 ![click here to add assets](images/wkc-admin/wkc-add-data-asset.png)
 
 *OR* you can click `Add to catalog +` in the top right and, for example, choose `Local files`:
-#### Need to change picture below ####
 
 ![add local files to catalog](images/wkc-admin/wkc-add-to-catalog-local-files.png)
 
 * Browse to where you cloned the repository and go to `/data/split/applicant_personal_data.csv`. Click on `Open`. Add an optional description and click `Add`:
-#### Need to change picture below ####
 
 ![click add for local files to catalog](images/wkc-admin/wkc-file-selected-now-add.png)
 
 >NOTE: Stay in the catalog until loading is complete! If you leave the catalog, the incomplete asset will be deleted.
 
 * The newly added *applicant_personal_data.csv* file will show up under the *Browse Assets* tab of your catalog:
-#### Need to change picture below ####
 
 ![newly added data in catalog](images/wkc-admin/wkc-browse-assets.png)
 
