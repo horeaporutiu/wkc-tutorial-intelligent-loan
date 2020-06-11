@@ -254,7 +254,7 @@ You already saw how to create a category and make it a *business term*. You can 
 
 ![create business term](images/wkc-admin/wkc-create-business-term.png)
 
-* Give the new Business term a name such as *Billing* and optional description, and click `Save as draft`. NOTE that if others on the platform will be creating a business term as well, pre-pend your term with something unique, i.e *Samaya-Billing*:
+* Give the new Business term a name such as *Contact Information* and optional description, and click `Save as draft`.
 
 ![name new business term](images/wkc-admin/wkc-name-new-business-term.png)
 
