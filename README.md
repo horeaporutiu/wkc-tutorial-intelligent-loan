@@ -336,15 +336,18 @@ We can now create rules to control how a user can access data.
 <!-- * To add a rule to *Obfuscate* data, go to the `Profile` tab and scroll to the *TotalCharges* column. You can see that the data has been inferred to be classified as a *Quantity*: -->
 
 * Back in the CreditDataCatalog, under the applicant_personal_data.csv asset, go to the Overview tab and scroll to the Age column. Click the "down arrow" and you can see that the data has been inferred to be classified as a Code
-### Need to change pic below
 
-![TotalCharges classified as Quantity](images/wkc-admin/wkc-inferred-classifier-totalcharges.png)
+![TotalCharges classified as Quantity](images/wkc-admin/wkc-inferred-classifier-age.png)
 
 Here is where you could change the classification if the inferred one was not what you wanted.
 
+Change the classifier by clicking View all.
+
+Now change the classifier by starting to type Age. When this comes up in the search, click Use and then Close:
+
+![TotalCharges classified as Quantity](images/wkc-admin/wkc-classifier-age.png)
 
 * You can build a rule to Obfuscate the `Age` column:
-### Need to change pic below
 
 ![TotalCharges obfuscate rule ](images/wkc-admin/wkc-build-obfuscate-rule.png)
 
@@ -355,78 +358,13 @@ Here is where you could change the classification if the inferred one was not wh
 
 This ends the Watson Knowledge Catalog for Admins lab.
 
+## Wrap up
 
+In this lab, we learned how to:
 
-<!-- ## 1. Pre work
-
-First clone this repository. This will give you access to the data that we need. The 
-data we use can be found [here](https://github.ibm.com/ibm-developer-eti-ai-analytics/Intelligent-Bank-Modernizing-your-Bank-Loan-Department/blob/phase2-studio-ml-notebook/data/german_credit_data.csv). 
-
-At this point of the workshop we will be using Cloud Pak for Data for the remaining steps.
-
-### Log into Cloud Pak for Data
-
-Launch a browser and navigate to your Cloud Pak for Data deployment
-
-> **NOTE:** Your instructor will provide a URL and credentials to log into Cloud Pak for Data!
-
-![Cloud Pak for Data login](images/manage/cpd-login.png)
-
-### Create a New project
-
-In Cloud Pak for Data, we use the concept of a project to collect / organize the resources used to achieve a particular goal (resources to build a solution to a problem). Your project resources can include data, collaborators, and analytic assets like notebooks and models, etc.
-
-* Go the (☰) menu and click *Projects*
-
-![(☰) Menu -> Projects](images/manage/cpd-projects-menu.png)
-
-* Click on *New project +*
-
-![Start a new project](images/manage/cpd-new-project.png)
-
-* Select *Analytics project* for the project type and click on *Next*
-
-![Select project type](images/manage/cpd-project-type.png)
-
-* We are going to create a project from an existing file (which contains assets we will use throughout this workshop), as opposed to creating an empty project. Select the _*Create a project from a file*_ option:
-
-![Create project from file](images/openscale-config/openscale-config-create-project-from-sample.png)
-
-* Navigate to where you cloned this repository, then to `projects/` and choose `CreditRiskProject.zip`. Give the project a name and click `Create`:
-
-<!-- ![Browse for project files](images/manage/cpd-importproject.png) -->
-
-<!-- * After successful creation, click on *View new project* -->
-
-<!-- ![Import project success](images/manage/cpd-importprojectsuccess.png) -->
-<!-- 
-### Create a Deployment Space
-
-Cloud Pak for Data uses the concept of `Deployment Spaces` to configure and manage the deployment of a set of related deployable assets. These assets can be data files, machine learning models, etc.
-
-* Go the (☰) menu and click `Analyze` -> `Analytics deployments`:
-
-![(☰) Menu -> Analytics deployments](images/manage/ChooseAnalyticsDeployments.png)
-
-* Click on `+ New deployment space`:
-
-![Add New deployment space](images/manage/addNewDeploymentSpace.png)
-
-* Select the _*Create an empty space*_ option.
-
-![Create empty deployment space](images/manage/createEmptyDeploymentSpace.png)
-
-* Give your deployment space a unique name, optional description, then click `Create`. You will use this space later when you deploy a machine learning model.
-
-![Create deployment space](images/manage/createDeploymentSpace.png)
-
-* Next, if you want to add a collaborator to the new deployment space, so that assets we deploy can be monitored, you can do so now by following the instructions for `access control` below. 
-Otherwise, skip to `Step 2`. 
-
-### Optional (Add collaborators to the space)
-
-* Click on the `Access control` tab and then click on `Add collaborators +` on the right.
-
-* Enter "admin" as a Collaborator and select the user from the drop down list. Then click on the `Add to list +` button.
-
-* Click the `Add` button to finish adding the collaborator. You should be brought back to the deployment space page and see your user ID along with the `Admin` user as collaborators for this space. --> 
+* Set up Catalog and Data
+* Add collaborators and control access
+* Add categories
+* Add data classes
+* Add Business terms
+* Add rules for policies
