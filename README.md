@@ -233,12 +233,10 @@ When you profile your assets, a data class will be inferred from the contents wh
 Now let's add that data class to a column in our *applicant_personal_data.csv* asset.
 
 * Go back to your CreditDataCatalog catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *CustomerID* column and click the down arrow next to "Customer Number" and then *View all*:
-### Need to change pic below
 
 ![change data class](images/wkc-admin/wkc-admin-existing-data-class.png)
 
 * In the window that opens, search for your newly created data class, *alphanumeric* and click it when it returns in the search. Then click *Select*:
-### Need to change pic below
 
 ![Set column to numerical data class](images/wkc-admin/wkc-admin-alphanumeric-data-class.png)
 
