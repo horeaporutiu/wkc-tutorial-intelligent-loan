@@ -103,7 +103,6 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 ### Option 2 - Add Connection
 
 * You can add a connection to a remote DB, for example *DB2 Warehouse in IBM Cloud*, by choosing `Add to catalog +` -> `Connection`:
-#### Need to change picture below ####
 
 ![add connection to catalog](images/wkc-admin/wkc-add-connection.png)
 
@@ -116,7 +115,6 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 ![enter db2 warehouse connection details](images/wkc-admin/wkc-enter-connection-details.png)
 
 * The connection now shows up in the catalog:
-#### Need to change picture below ####
 
 ![db2 warehouse connection shows up](images/wkc-admin/wkc-new-connection-shows-up.png)
 
