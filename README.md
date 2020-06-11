@@ -198,7 +198,7 @@ In this way, you can import Categories, Business Terms, Classifications, Policie
 
 ![sub category total charges](images/wkc-admin/wkc-new-sub-category-residence-information.png)
 
-* For the *Billing* category you can select a *Type*, such as `Business term`:
+* For the *Residence Information* sub-category you can select a *Type*, such as `Business term`:
 
 ![select business term type](images/wkc-admin/wkc-category-select-type.png)
 
