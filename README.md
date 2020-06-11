@@ -267,7 +267,6 @@ You already saw how to create a category and make it a *business term*. You can 
 ![verify publish business term](images/wkc-admin/wkc-click-publish.png)
 
 * Now go back to your `CreditDataCatalog` catalog and open it up to the column view ((☰) hamburger menu `Organize` -> `All catalogs` and choose `CreditDataCatalog`). Under the *Browse assets* tab, click on the data set *applicant_personal_data.csv* to get the column/row preview. Scroll right to get to the *TotalCharges* column and click the *Column information* icon (looks like an "eye"):
-### Need to change pic below
 
 ![choose TotalCharges column information](images/wkc-admin/wkc-totalcharges-column-information.png)
 
