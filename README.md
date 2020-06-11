@@ -135,27 +135,22 @@ A user can now add this to a project like any other asset from a catalog.
 ## 2. Add collaborators and control access
 
 * Under the *Access Control* tab you can click `Add Collaborator` to give other users access to your catalog:
-#### Would be nice to change picture below ####
 
 ![give users access to the catalog](images/wkc-admin/wkc-access-control-add-collaborator.png)
 
 * You can search for a user, click on the name to select them, choose a role for the user - Admin, Editor, or Viewer and click `Add`:
-#### Would be nice to change picture below ####
 
 ![search for user and add as collaborator](images/wkc-admin/wkc-choose-user-and-add.png)
 
 * To access data in the catalog, click on the name of the data:
-#### Need to change picture below ####
 
 ![click data name to open](images/wkc-admin/wkc-click-data-name-to-open.png)
 
 * A preview of the data will open, with metadata and the first few rows:
-#### Need to change picture below ####
 
 ![preview of data](images/wkc-admin/wkc-data-preview.png)
 
 * You can click the `Review` tab and rate the data, as well as comment on it, to provide feedback for your teammates:
-#### Need to change picture below ####
 
 ![review data](images/wkc-admin/wkc-review-data.png)
 
