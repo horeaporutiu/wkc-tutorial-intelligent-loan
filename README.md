@@ -351,6 +351,18 @@ Now change the classifier by starting to type `Age`. When this comes up in the s
 
 ![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-age-column.png)
 
+Lastly, let's click on `lineage` to see the history
+of changes we've made to our data asset.
+
+![click lineage](images/wkc-admin/wkc-click-lineage.png)
+
+Here, you can see the events associated with the
+`applicant_personal_data.csv` data asset, like 
+when we updated the age column with the `age` data
+class.
+
+![details](images/wkc-admin/wkc-lineage-details.png)
+
 This ends the Watson Knowledge Catalog for Admins lab.
 
 ## Wrap up
