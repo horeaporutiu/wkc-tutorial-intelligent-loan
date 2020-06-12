@@ -363,3 +363,7 @@ In this lab, we learned how to:
 * Add data classes
 * Add Business terms
 * Add rules for policies
+
+You will learn how to use this data set in the 
+following tutorials to create machine learning models
+to predict credit risk.
