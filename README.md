@@ -348,9 +348,8 @@ Now change the classifier by starting to type `Age`. When this comes up in the s
 ![TotalCharges obfuscate rule ](images/wkc-admin/wkc-build-obfuscate-rule.png)
 
 * And now that column will have data that is replaced with similarly formatted data:
-### Need to change pic below
 
-![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-totalchurn-column.png)
+![TotalCharges column obfuscated](images/wkc-admin/wkc-obfuscated-age-column.png)
 
 This ends the Watson Knowledge Catalog for Admins lab.
 
