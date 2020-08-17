@@ -111,7 +111,7 @@ Click to expand one:
 <details><summary><b>Connect to IBM Netezza Performance Server</b></summary>
 <p>
 
-Before you create connection to IBM Netezza Performance Server (NPS), you should load teh date into IBM NPS server using `nzload` cli. To install `nzload` cli you can follow instructions from following link.
+Before you create connection to IBM Netezza Performance Server (NPS), you should load the `applicant data` into IBM NPS server using `nzload` cli. To install `nzload` cli you can follow instructions from following link.
 https://www.ibm.com/support/knowledgecenter/en/SS5FPD_1.0.0/com.ibm.ips.doc/postgresql/admin/t_sysadm_installing_linux_unix_clients.html
 
 Login to you IBM NPS console and run the [create table sql](data/split/create-table.sql)
@@ -134,6 +134,17 @@ If the `nzload` cli is not supported for example in Mac OSX, you can load the in
 * The connection now shows up in the catalog:
 
 ![IBM Netezza connection shows up](images/wkc-admin/wkc-admin-netezza-data-asset.png)
+
+* From `Add to Catalog` drop down select `Connected asset` and click `select source`. Choose the IBM Netezza connection you created earlier and the table you want to use.
+
+![wkc-admin-add-connected-asset-nps](images/wkc-admin/wkc-add-asset.png)
+
+![wkc-admin-add-connected-asset-nps](images/wkc-admin/wkc-admin-add-connected-asset-nps.png)
+
+The data asset that you want to use in Watson Knowlede Catalog now shows up in the list of assets.
+
+![wkc-add-asset-shows-up](images/wkc-admin/wkc-add-asset-shows-up.png)
+
 </p>
 </details>
 
@@ -152,8 +163,6 @@ If the `nzload` cli is not supported for example in Mac OSX, you can load the in
 ![db2 warehouse connection shows up](images/wkc-admin/wkc-new-connection-shows-up.png)
 </p>
 </details>
-
-
 
 
 
