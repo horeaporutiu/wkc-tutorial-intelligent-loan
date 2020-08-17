@@ -102,10 +102,43 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 
 ### Option 2 - Add Connection
 
-* You can add a connection to a remote DB, for example *DB2 Warehouse in IBM Cloud*, by choosing `Add to catalog +` -> `Connection`:
+* You can add a connection to a remote DB, for example *DB2 Warehouse in IBM Cloud* or *IBM Netezza Performance Server* or *Mongo DB* or any thats available in the list of connections, by choosing `Add to catalog +` -> `Connection`:
 
 ![add connection to catalog](images/wkc-admin/wkc-add-connection.png)
 
+Click to expand one:
+
+<details><summary><b>Connect to IBM Netezza Performance Server</b></summary>
+<p>
+
+Before you create connection to IBM Netezza Performance Server (NPS), you should load teh date into IBM NPS server using `nzload` cli. To install `nzload` cli you can follow instructions from following link.
+https://www.ibm.com/support/knowledgecenter/en/SS5FPD_1.0.0/com.ibm.ips.doc/postgresql/admin/t_sysadm_installing_linux_unix_clients.html
+
+Login to you IBM NPS console and run the [create table sql](data/split/create-table.sql)
+
+![create personal data](images/wkc-admin/wkc-create-schema.png)
+
+Then you can use you `nzload` cli command to load the csv data to your NPS database. The data can be found [here](data/split/applicant_personal_data_no_header.csv).
+
+If the `nzload` cli is not supported for example in Mac OSX, you can load the insert statements from [applicant_personal_data.sql](data/split/appicant_personal_data.sql) to IBM Netezza console in SQL editor and run them. This might take little longer than nzload command.
+
+
+* Select `global` and Choose `Netezza` and click:
+
+![choose IBM Netezza connection ](images/wkc-admin/wkc-add-netezza.png)
+
+* Enter the connection details and click `Create`:
+
+![enter IBM Netezza connection details](images/wkc-admin/wkc-create-connection.png)
+
+* The connection now shows up in the catalog:
+
+![IBM Netezza connection shows up](images/wkc-admin/wkc-admin-netezza-data-asset.png)
+</p>
+</details>
+
+<details><summary><b>Connect to IBM Db2 on Cloud</b></summary>
+<p>
 * Choose your remote DB and click:
 
 ![chose db2 warehouse connection ](images/wkc-admin/wkc-choose-db2-warehouse-conn.png)
@@ -117,6 +150,12 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 * The connection now shows up in the catalog:
 
 ![db2 warehouse connection shows up](images/wkc-admin/wkc-new-connection-shows-up.png)
+</p>
+</details>
+
+
+
+
 
 ### Options 3 - Add Virtualized Data
 
