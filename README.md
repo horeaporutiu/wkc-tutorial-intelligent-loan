@@ -120,6 +120,12 @@ Login to you IBM NPS console and run the [create table sql](data/split/create-ta
 
 Then you can use you `nzload` cli command to load the csv data to your NPS database. The data can be found [here](data/split/applicant_personal_data_no_header.csv).
 
+```bash
+
+nzload -u <user> -pw <password> -host <host> -db <database> -t <table name> -delim ',' -df <csv file name>
+```
+
+
 If the `nzload` cli is not supported for example in Mac OSX, you can load the insert statements from [applicant_personal_data.sql](data/split/appicant_personal_data.sql) to IBM Netezza console in SQL editor and run them. This might take little longer than nzload command.
 
 
