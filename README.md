@@ -108,13 +108,13 @@ If you haven't yet started Watson Knowledge Catalog, you'll need to provision it
 
 Click to expand one:
 
-<details><summary><b>Connect to IBM Netezza Performance Server</b></summary>
+<details><summary><b>Connect to Netezza Performance Server</b></summary>
 <p>
 
-Before you create connection to IBM Netezza Performance Server (NPS), you should load the `applicant data` into IBM NPS server using `nzload` cli. To install `nzload` cli you can follow instructions from following link.
+Before you create connection to Netezza Performance Server (NPS), you should load the `applicant data` into NPS server using `nzload` cli. To install `nzload` cli you can follow instructions from following link.
 https://www.ibm.com/support/knowledgecenter/en/SS5FPD_1.0.0/com.ibm.ips.doc/postgresql/admin/t_sysadm_installing_linux_unix_clients.html
 
-Login to you IBM NPS console and run the [create table sql](data/split/create-table.sql)
+Login to you NPS console and run the [create table sql](data/split/create-table.sql)
 
 ![create personal data](images/wkc-admin/wkc-create-schema.png)
 
@@ -126,28 +126,28 @@ nzload -u <user> -pw <password> -host <host> -db <database> -t <table name> -del
 ```
 
 
-If the `nzload` cli is not supported for example in Mac OSX, you can load the insert statements from [applicant_personal_data.sql](data/split/appicant_personal_data.sql) to IBM Netezza console in SQL editor and run them. This might take little longer than nzload command.
+If the `nzload` cli is not supported for example in Mac OSX, you can load the insert statements from [applicant_personal_data.sql](data/split/appicant_personal_data.sql) to Netezza console in SQL editor and run them. This might take little longer than nzload command.
 
 
 * Select `global` and Choose `Netezza` and click:
 
-![choose IBM Netezza connection ](images/wkc-admin/wkc-add-netezza.png)
+![choose Netezza connection ](images/wkc-admin/wkc-add-netezza.png)
 
 * Enter the connection details and click `Create`:
 
-![enter IBM Netezza connection details](images/wkc-admin/wkc-create-connection.png)
+![enter Netezza connection details](images/wkc-admin/wkc-create-connection.png)
 
 * The connection now shows up in the catalog:
 
-![IBM Netezza connection shows up](images/wkc-admin/wkc-admin-netezza-data-asset.png)
+![Netezza connection shows up](images/wkc-admin/wkc-admin-netezza-data-asset.png)
 
-* From `Add to Catalog` drop down select `Connected asset` and click `select source`. Choose the IBM Netezza connection you created earlier and the table you want to use.
+* From `Add to Catalog` drop down select `Connected asset` and click `select source`. Choose the Netezza connection you created earlier and the table you want to use.
 
 ![wkc-admin-add-connected-asset-nps](images/wkc-admin/wkc-add-asset.png)
 
 ![wkc-admin-add-connected-asset-nps](images/wkc-admin/wkc-admin-add-connected-asset-nps.png)
 
-The data asset that you want to use in Watson Knowlede Catalog now shows up in the list of assets.
+The data asset that you want to use in Watson Knowledge Catalog now shows up in the list of assets.
 
 ![wkc-add-asset-shows-up](images/wkc-admin/wkc-add-asset-shows-up.png)
 
